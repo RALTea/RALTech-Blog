@@ -7,47 +7,50 @@ banner:
   button:
     enable: true
     label: "Read My Journey"
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "/blog"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "What's Included in this blog"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Learn about my experiences, my tips, and all the projects I've worked on."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Software Architecture"
+      - "Building apps with modern frameworks"
+      - "Small to large scale projects"
+      - "Tools and tricks"
+      - "Cloud services and self-hosting"
+      - "Automation"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Discover my biggest project, RALTech School"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "RALTech School is an online school that teaches you actual skills to build a website, and that takes the time doing so. Bootcamps might promise dreams, but RALTech School promises results."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Complete web development curriculum from basics to advanced concepts"
+      - "Self-paced learning that respects your learning curve"
+      - "Hands-on projects that build a real portfolio"
+      - "Personal feedback on your code"
+      - "No rush, no pressure - just solid skill building"
+      - "Industry-relevant technologies that employers actually want"
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      link: "https://raltech.school/en"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+  # - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  #   image: "/images/service-3.png"
+  #   content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  #   bulletpoints:
+  #     - "Instantly load static sites for better user experience and SEO."
+  #     - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
+  #     - "Use any front-end library or framework, or build custom components, for any project size."
+  #     - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+  #   button:
+  #     enable: false
+  #     label: ""
+  #     link: ""
 ---

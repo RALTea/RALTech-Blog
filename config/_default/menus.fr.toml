@@ -1,0 +1,46 @@
+############# French navigation ##############
+
+# main menu
+[[main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[main]]
+name = "A propos"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Éléments"
+url = "/elements"
+weight = 3
+
+[[main]]
+name = "Pages"
+weight = 4
+
+[[main]]
+parent = "Pages"
+name = "Blog"
+url = "/blog"
+
+[[main]]
+parent = "Pages"
+name = "Contact"
+url = "/contact"
+
+[[main]]
+parent = "Pages"
+name = "Auteurs"
+url = "/authors"
+
+[[main]]
+parent = "Pages"
+name = "Catégories"
+url = "/categories"
+
+[[main]]
+parent = "Pages"
+name = "404 Page"
+url = "/404"
