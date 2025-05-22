@@ -1,19 +1,19 @@
 ---
 # Banner
 banner:
-  title: "Hi, I'm Robin - A dev journey"
-  content: "I'm a dev, and I love my job. Join me on my journey to improve myself and grow."
+  title: "Welcome to RALTech - A dev journey"
+  content: "We are devs, and we love our jobs. Join us on our journey to improve ourselves and grow."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Read My Journey"
+    label: "Read our journey"
     link: "/blog"
 
 # Features
 features:
   - title: "What's Included in this blog"
     image: "/images/service-1.png"
-    content: "Learn about my experiences, my tips, and all the projects I've worked on."
+    content: "Learn about our experiences, our tips, and all the projects we've worked on."
     bulletpoints:
       - "Software Architecture"
       - "Building apps with modern frameworks"
@@ -26,7 +26,7 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover my biggest project, RALTech School"
+  - title: "Discover our biggest project, RALTech School"
     image: "/images/service-2.png"
     content: "RALTech School is an online school that teaches you actual skills to build a website, and that takes the time doing so. Bootcamps might promise dreams, but RALTech School promises results."
     bulletpoints:
