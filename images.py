@@ -5,7 +5,7 @@ import shutil
 # Paths
 posts_dir = "/Users/rotour/projects/rotour-blog/content/english/blog/"
 attachments_dir = "/Users/rotour/raltech/Raltech/Images/"
-static_images_dir = "/Users/rotour/projects/rotour-blog/images/attachments/"
+static_images_dir = "/Users/rotour/projects/rotour-blog/public/images/attachments/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
@@ -21,7 +21,7 @@ for filename in os.listdir(posts_dir):
         # Step 3: Replace image links and ensure URLs are correctly formatted
         for image in images:
             # Prepare the Markdown-compatible link with %20 replacing spaces
-            markdown_image = f"![Image Description](/images/{image.replace(' ', '%20')})"
+            markdown_image = f"![Image Description](/images/attachments/{image.replace(' ', '%20')})"
             content = content.replace(f"[[{image}]]", markdown_image)
             
             # Step 4: Copy the image to the Hugo static/images directory if it exists

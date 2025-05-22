@@ -66,7 +66,7 @@ Let's dive into a real-world example that truly shows off how easy Coolify is: s
 ### Here are the steps
 **Log in to Your Coolify Dashboard**
 Just open your web browser and go to your Coolify instance's URL (like http://your-server-ip:8000). Pop in your admin details and you're in
-!![Image Description](/images/Pasted%20image%2020250522102419.png)
+!![Image Description](/images/attachments/Pasted%20image%2020250522102419.png)
 
 **Create a New Project (please stay organized.)**    
 In Coolify, projects help you organize your stuff. Click on "Projects" in the sidebar, then "Add New Project." Give it a name, then create it and select the production environment.
@@ -74,7 +74,7 @@ In Coolify, projects help you organize your stuff. Click on "Projects" in the si
 **Add a New Resource**    
 Head over to your new project (or the default one if you skipped the last step). Click "Add New Resource."    
 Choose "Service" and search for "Minecraft"
-!![Image Description](/images/Pasted%20image%2020250522102454.png)
+!![Image Description](/images/attachments/Pasted%20image%2020250522102454.png)
     
 **Configure Environment Variables**    
 Minecraft servers need a few specific settings to work right. Under the "Environment Variables" section, you'll add these:
