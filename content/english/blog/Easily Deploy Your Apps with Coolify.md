@@ -1,7 +1,7 @@
 ---
 title: Easily Deploy Your Apps with Coolify
 date: 2025-05-22
-draft: true
+draft: false
 tags:
   - deployment
 ---
