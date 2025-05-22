@@ -4,6 +4,7 @@ date: 2025-05-22
 draft: false
 tags:
   - deployment
+description: Learn about coolify, and try it setting up a minecraft server
 ---
 
 Hey there! If you're a developer, a small business owner, or just someone who loves building cool stuff, you know that feeling when your app is finally ready. Awesome, right? But then comes the tricky part: **deployment**. For a lot of us, that's where the fun can turn into a major headache. Cloud hosting platforms promise to make things easy, but they often hit you with tricky learning curves, bills that keep climbing, and that annoying feeling that you're not really in charge of your own stuff.

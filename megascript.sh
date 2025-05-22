@@ -6,8 +6,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Set variables for Obsidian to Hugo copy
-sourcePathEn="/Users/rotour/raltech/Raltech/Posts/EN"
-sourcePathFr="/Users/rotour/raltech/Raltech/Posts/FR"
+sourcePathEn="/Users/rotour/raltech/Raltech/Posts/EN/"
+sourcePathFr="/Users/rotour/raltech/Raltech/Posts/FR/"
 destinationPathEn="/Users/rotour/projects/rotour-blog/content/english/blog/."
 destinationPathFr="/Users/rotour/projects/rotour-blog/content/french/blog/."
 
