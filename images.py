@@ -5,7 +5,7 @@ import shutil
 # Paths
 posts_dir = "/Users/rotour/projects/rotour-blog/content/english/blog/"
 attachments_dir = "/Users/rotour/raltech/Raltech/Images/"
-static_images_dir = "/Users/rotour/projects/rotour-blog/assets/images/attachments/"
+static_images_dir = "/Users/rotour/projects/rotour-blog/images/attachments/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
