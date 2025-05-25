@@ -1,5 +1,5 @@
 ---
-title: Easily Deploy Your Apps with Coolify
+title: Déployer ses applications avec Coolify (self-hosting)
 date: 2025-05-22
 draft: false
 tags:

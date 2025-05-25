@@ -4,6 +4,8 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
+  [en.permalinks]
+    blog = "/:slugorcontentbasename/"
 
 ################ French language ##################
 [fr]
@@ -11,3 +13,5 @@ languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
+  [fr.permalinks]
+    blog = "/:slugorcontentbasename/"

@@ -2,7 +2,7 @@
 <html
   itemscope
   class=""
-  lang="fr-fr"
+  lang="en-us"
   itemtype="http://schema.org/WebPage">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
@@ -72,7 +72,7 @@
 
 
 
-  <base href="//localhost:1313/fr/privacy-policy/" />
+  <base href="//localhost:1313/en/recent/" />
 
 
 
@@ -83,7 +83,7 @@
   
 
 
-<title>Privacy</title>
+<title>Recent Articles</title>
 
 
 
@@ -96,11 +96,11 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/pages/privacy-policy/" />
+    <link rel="alternate" hreflang="en" href="//localhost:1313/en/recent/" />
   
-    <link rel="alternate" hreflang="fr" href="//localhost:1313/fr/privacy-policy/" />
+    <link rel="alternate" hreflang="fr" href="//localhost:1313/fr/blog/" />
   
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/fr/privacy-policy/" />
+  <link rel="alternate" hreflang="x-default" href="//localhost:1313/en/recent/" />
 
 
 
@@ -115,7 +115,7 @@
 
 <meta
   name="description"
-  content="This is meta description" />
+  content="Learn web development online with actual mentors to guide you" />
 
 
 
@@ -126,7 +126,6 @@
 
 
 
-  
   
 
 
@@ -191,14 +190,14 @@
 
 
 
-<meta property="og:title" content="Privacy" />
-<meta property="og:description" content="This is meta description" />
+<meta property="og:title" content="Recent Articles" />
+<meta property="og:description" content="Learn web development online with actual mentors to guide you" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/fr/privacy-policy/" />
+<meta property="og:url" content="//localhost:1313/en/recent/" />
 
 
-<meta name="twitter:title" content="Privacy" />
-<meta name="twitter:description" content="This is meta description" />
+<meta name="twitter:title" content="Recent Articles" />
+<meta name="twitter:description" content="Learn web development online with actual mentors to guide you" />
 
 
   <meta name="twitter:site" content="@rotour" />
@@ -225,10 +224,10 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/fr/searchindex.json";
+  let indexURL = "//localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "Aucun résultat pour";
-  let search_initial_message = "Tapez quelque chose pour rechercher..";
+  let search_no_results = "No results for";
+  let search_initial_message = "Type something to search..";
 </script>
 
 
@@ -389,7 +388,7 @@
     
     <div class="order-0">
       
-      <a class="navbar-brand block" href="/fr/">
+      <a class="navbar-brand block" href="/">
         
 
 
@@ -523,8 +522,8 @@
             <a
               class="nav-link "
               
-              href="/fr/"
-              >Accueil</a
+              href="/"
+              >Home</a
             >
           </li>
         
@@ -537,8 +536,8 @@
             <a
               class="nav-link "
               
-              href="/fr/about"
-              >A propos</a
+              href="/about"
+              >About</a
             >
           </li>
         
@@ -551,8 +550,8 @@
             <a
               class="nav-link "
               
-              href="/fr/elements"
-              >Éléments</a
+              href="/elements"
+              >Elements</a
             >
           </li>
         
@@ -599,7 +598,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/fr/404">
+                    href="/404">
                     404 Page
                   </a>
                 </li>
@@ -610,8 +609,8 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/fr/authors">
-                    Auteurs
+                    href="/authors">
+                    Authors
                   </a>
                 </li>
               
@@ -621,7 +620,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/fr/blog">
+                    href="/blog">
                     Blog
                   </a>
                 </li>
@@ -632,8 +631,8 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/fr/categories">
-                    Catégories
+                    href="/categories">
+                    Categories
                   </a>
                 </li>
               
@@ -643,7 +642,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/fr/contact">
+                    href="/contact">
                     Contact
                   </a>
                 </li>
@@ -656,7 +655,7 @@
         <li class="mt-4 inline-block lg:hidden">
           <a
             class="btn btn-outline-primary btn-sm"
-            href="/fr/contact">
+            href="/contact">
             Contact
           </a>
         </li>
@@ -705,7 +704,9 @@
     
       <option
         id="en"
-        value="//localhost:1313/pages/privacy-policy/"
+        value="//localhost:1313/en/recent/"
+      
+        selected
       
         >
         En
@@ -717,9 +718,7 @@
     
       <option
         id="fr"
-        value="//localhost:1313/fr/privacy-policy/"
-      
-        selected
+        value="//localhost:1313/fr/blog/"
       
         >
         Fr
@@ -804,7 +803,7 @@
       
       
         <a
-          href="/fr/contact"
+          href="/contact"
           class="btn btn-outline-primary btn-sm hidden lg:inline-block">
           Contact
         </a>
@@ -862,12 +861,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="Rechercher un article..." />
+            placeholder="Search Post..." />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            Tapez quelque chose pour rechercher..
+            Type something to search..
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -895,7 +894,7 @@
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
               </svg>
             </kbd>
-            pour naviguer
+            to navigate
           </span>
           <span>
             <kbd>
@@ -911,11 +910,11 @@
                   d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
               </svg>
             </kbd>
-            pour sélectionner
+            to select
           </span>
           <span class="search-result-info"></span>
           <span data-target="close-search-modal">
-            <kbd>ESC</kbd> pour fermer
+            <kbd>ESC</kbd> to close
           </span>
         </div>
       </div>
@@ -931,7 +930,7 @@
   <div class="container text-center">
     <div
       class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
-      <h1>Privacy</h1>
+      <h1>Recent Articles</h1>
       
 
 
@@ -939,19 +938,17 @@
 
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/fr/">
-      Accueil
+    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/">
+      Home
     </a>
     <span class="inlin-block mr-1">/</span>
   </li>
   
     
   
-    
-  
   <li>
     <span class="text-primary dark:text-darkmode-primary">
-      Privacy
+      Recent Articles
     </span>
   </li>
 </ul>
@@ -962,29 +959,83 @@
 
 
 
-  <section class="section-sm">
+  <section class="section">
     <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-10">
-          <div class="content">
-            <h4 id="responsibility-of-contributors">Responsibility of Contributors</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed</p>
-<p>pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.</p>
-<h4 id="gathering-of-personal-information">Gathering of Personal Information</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed</p>
-<h4 id="protection-of-personal--information">Protection of Personal- Information</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.</p>
-<p>Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat</p>
-<h4 id="privacy-policy-changes">Privacy Policy Changes</h4>
-<ol>
-<li>Sll the Themefisher items are designed to be with the latest , We check all</li>
-<li>comments that threaten or harm the reputation of any person or organization</li>
-<li>personal information including, but limited to, email addresses, telephone numbers</li>
-<li>Any Update come in The technology Customer will get automatic Notification.</li>
-</ol>
+      <div class="row gx-5">
+        
+        <div class="lg:col-8">
+          <div class="row">
+            
+            
+              <div class="md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+  <h4 class="mb-3">
+    <a href="/easily-deploy-your-apps-with-coolify/">
+      Easily Deploy Your Apps with Coolify
+    </a>
+  </h4>
+  
+  
+  <p class="mb-6">Hey there! If you&rsquo;re a developer, a small business owner, or just someone who loves building cool stuff, you know that feeling when your app is finally ready. Awesome, right? But then comes the tricky part: deployment. For a lot of us, that&rsquo;s where the fun can turn into a major headache. Cloud hosting platforms promise to make things easy, but they often hit you with tricky learning curves, bills that keep climbing, and that annoying feeling that you&rsquo;re not really in charge of your own stuff.
+</p>
+  <a class="btn btn-outline-primary btn-sm" href="/easily-deploy-your-apps-with-coolify/">
+    Read More
+  </a>
+</div>
 
+              </div>
+            
           </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <div class="lg:col-4">
+          
+          
+          
+  
+
+  
+
+
+
+  
+
+  
+    <div class="mb-8">
+      <h5 class="mb-6">Tags</h5>
+      <div class="bg-light dark:bg-darkmode-light rounded p-6">
+        <ul>
+          
+            <li class="inline-block">
+              <a
+                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
+                href="/tags/deployment/">
+                Deployment
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+
+
+
+
         </div>
       </div>
     </div>
@@ -1000,7 +1051,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros,
         
         <a
           class="navbar-brand inline-block"
-          href="/fr/">
+          href="/">
           
 
 
@@ -1104,6 +1155,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros,
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /about
+                "
+                >About</a
+              >
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /elements
+                "
+                >Elements</a
+              >
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /privacy-policy
+                "
+                >Privacy Policy</a
+              >
+            </li>
           
         </ul>
       </div>

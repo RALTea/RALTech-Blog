@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Read our journey"
-    link: "/blog"
+    link: "/recent"
 
 # Features
 features:

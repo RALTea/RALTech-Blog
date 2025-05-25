@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Lire notre voyage"
-    link: "/fr/blog"
+    link: "/fr/recent"
 
 # Features
 features:
