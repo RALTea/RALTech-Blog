@@ -1,4 +1,4 @@
 ---
 title: Articles Récents
-url: /recent/
+url: /fr/recent/
 ---
