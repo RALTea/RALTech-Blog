@@ -1,0 +1,41 @@
+labels:
+  - traefik.enable=true
+
+  - traefik.http.middlewares.gzip.compress=true
+  - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
+  - traefik.http.middlewares.strip-blog-prefix.stripprefix.prefixes=/blog
+
+  - traefik.http.services.service-blog.loadbalancer.server.port=80
+
+  - traefik.http.routers.blog-subdomain-http.entryPoints=http
+  - traefik.http.routers.blog-subdomain-http.rule=Host(`blog.raltech.school`) && PathPrefix(`/`)
+  - traefik.http.routers.blog-subdomain-http.middlewares=redirect-to-https
+  - traefik.http.routers.blog-subdomain-http.service=service-blog
+
+  - traefik.http.routers.blog-subdomain-https.entryPoints=https
+  - traefik.http.routers.blog-subdomain-https.rule=Host(`blog.raltech.school`) && PathPrefix(`/`)
+  - traefik.http.routers.blog-subdomain-https.middlewares=gzip
+  - traefik.http.routers.blog-subdomain-https.service=service-blog
+  - traefik.http.routers.blog-subdomain-https.tls.certresolver=letsencrypt
+  - traefik.http.routers.blog-subdomain-https.tls=true
+
+  - traefik.http.routers.maindomain-blogpath-http.entryPoints=http
+  - traefik.http.routers.maindomain-blogpath-http.rule=Host(`raltech.school`) && PathPrefix(`/blog`)
+  - traefik.http.routers.maindomain-blogpath-http.middlewares=redirect-to-https
+  - traefik.http.routers.maindomain-blogpath-http.service=service-blog
+
+  - traefik.http.routers.maindomain-blogpath-https.entryPoints=https
+  - traefik.http.routers.maindomain-blogpath-https.rule=Host(`raltech.school`) && PathPrefix(`/blog`)
+  - traefik.http.routers.maindomain-blogpath-https.middlewares=strip-blog-prefix,gzip
+  - traefik.http.routers.maindomain-blogpath-https.service=service-blog
+  
+  - traefik.http.routers.maindomain-blogpath-https.tls.certresolver=letsencrypt
+  - traefik.http.routers.maindomain-blogpath-https.tls=true
+
+  - caddy_0.encode=zstd gzip
+  - caddy_0.handle_path.0_reverse_proxy={{upstreams 80}}
+  - caddy_0.handle_path=/*
+  - caddy_0.header=-Server
+  - caddy_0.try_files={path} /index.html /index.php
+  - caddy_0=https://blog.raltech.school
+  - caddy_ingress_network=coolify

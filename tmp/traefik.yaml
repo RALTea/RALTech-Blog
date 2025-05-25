@@ -1,0 +1,32 @@
+labels:
+  - traefik.enable=true
+
+  - traefik.http.middlewares.gzip.compress=true
+  - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
+  # - traefik.http.middlewares.strip-blog-prefix.stripprefix.prefixes=/blog
+
+  # - traefik.http.services.service-blog.loadbalancer.server.port=80
+
+  - traefik.http.routers.http-0-f0c488swwg88gsg88osk0c4w.entryPoints=http
+  - traefik.http.routers.http-0-f0c488swwg88gsg88osk0c4w.middlewares=redirect-to-https
+  - traefik.http.routers.http-0-f0c488swwg88gsg88osk0c4w.rule=Host(`blog.raltech.school`) && PathPrefix(`/`)
+  - traefik.http.routers.http-0-f0c488swwg88gsg88osk0c4w.service=http-0-f0c488swwg88gsg88osk0c4w
+
+  - traefik.http.routers.https-0-f0c488swwg88gsg88osk0c4w.entryPoints=https
+  - traefik.http.routers.https-0-f0c488swwg88gsg88osk0c4w.middlewares=gzip
+  - traefik.http.routers.https-0-f0c488swwg88gsg88osk0c4w.rule=Host(`blog.raltech.school`) && PathPrefix(`/`)
+  - traefik.http.routers.https-0-f0c488swwg88gsg88osk0c4w.service=https-0-f0c488swwg88gsg88osk0c4w
+
+  - traefik.http.routers.https-0-f0c488swwg88gsg88osk0c4w.tls.certresolver=letsencrypt
+  - traefik.http.routers.https-0-f0c488swwg88gsg88osk0c4w.tls=true
+  
+  - traefik.http.services.http-0-f0c488swwg88gsg88osk0c4w.loadbalancer.server.port=80
+  - traefik.http.services.https-0-f0c488swwg88gsg88osk0c4w.loadbalancer.server.port=80
+  
+  - caddy_0.encode=zstd gzip
+  - caddy_0.handle_path.0_reverse_proxy={{upstreams 80}}
+  - caddy_0.handle_path=/*
+  - caddy_0.header=-Server
+  - caddy_0.try_files={path} /index.html /index.php
+  - caddy_0=https://blog.raltech.school
+  - caddy_ingress_network=coolify
