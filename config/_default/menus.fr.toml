@@ -12,33 +12,28 @@ url = "/about"
 weight = 2
 
 [[main]]
-name = "Éléments"
-url = "/elements"
+name = "Articles"
+url = "/blog/fr/recent"
 weight = 3
 
 [[main]]
-name = "Pages"
+name = "Apps"
 weight = 4
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
+parent = "Apps"
+name = "Intranet"
+url = "https://intranet.raltech.school"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
+parent = "Apps"
+name = "CodeRonin"
+url = "https://coderonin.raltech.school"
 
 [[main]]
-parent = "Pages"
-name = "Auteurs"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Catégories"
-url = "/categories"
+parent = "Apps"
+name = "Raltech Website"
+url = "https://raltech.school"
 
 [[main]]
 parent = "Pages"
