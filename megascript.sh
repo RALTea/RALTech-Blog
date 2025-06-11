@@ -124,4 +124,5 @@ fi
 
 # git branch -D hostinger-deploy
 
+
 echo "All done! Site synced, processed, committed, built, and pushed."
