@@ -1,9 +1,11 @@
 ---
 title: July 28th, 2025 - Starting My Journey into Functional Programming
 date: 2025-07-28
-draft: true
+draft: false
 tags:
-  - tag1
+  - programming
+  - "#diary"
+  - journal
 ---
 
 ## Why starting learning FP ?

@@ -5,6 +5,7 @@ draft: false
 tags:
   - diary
   - programming
+  - journal
 ---
 
 ## Pourquoi apprendre la FP ?
