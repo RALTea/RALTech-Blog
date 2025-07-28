@@ -1,3 +1,12 @@
+---
+title: 28 juillet 2025 - Le début de mon aventure en programmation fonctionnelle
+date: 2025-07-28
+draft: false
+tags:
+  - diary
+  - programming
+---
+
 ## Pourquoi apprendre la FP ?
 (FP = Functional Programming)
 

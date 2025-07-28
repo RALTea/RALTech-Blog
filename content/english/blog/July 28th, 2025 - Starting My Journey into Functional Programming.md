@@ -1,3 +1,11 @@
+---
+title: July 28th, 2025 - Starting My Journey into Functional Programming
+date: 2025-07-28
+draft: true
+tags:
+  - tag1
+---
+
 ## Why starting learning FP ?
 One of the main issues I encounter when building apps is the amount of small bugs that I create. No matter how much I try to test my apps, when I finally showcase my projects, I always face new bugs that I never saw before. Even behaviors that I know I tested start breaking again, and this perpetual regression is really bothering me, even if in the last few years, my apps tend to be more robust and less filled with bugs.
 
