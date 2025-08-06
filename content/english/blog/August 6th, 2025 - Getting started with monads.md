@@ -6,6 +6,7 @@ tags:
   - programming
   - diary
   - journal
+slug: getting-started-with-monads
 ---
 
 If you've written any amount of TypeScript, you probably have written code similar to this:

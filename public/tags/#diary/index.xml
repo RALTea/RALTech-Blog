@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>#Diary on Hugoplate</title><link>https://raltech.school/blog/tags/%23diary/</link><description>Recent content in #Diary on Hugoplate</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 -0400</lastBuildDate><atom:link href="https://raltech.school/blog/tags/%23diary/index.xml" rel="self" type="application/rss+xml"/><item><title>July 28th, 2025 - Starting My Journey into Functional Programming</title><link>https://raltech.school/blog/july-28th-2025---starting-my-journey-into-functional-programming/</link><pubDate>Mon, 28 Jul 2025 00:00:00 -0400</pubDate><guid>https://raltech.school/blog/july-28th-2025---starting-my-journey-into-functional-programming/</guid><description>&lt;h2 id="why-starting-learning-fp-">Why starting learning FP ?&lt;/h2>
-&lt;p>One of the main issues I encounter when building apps is the amount of small bugs that I create. No matter how much I try to test my apps, when I finally showcase my projects, I always face new bugs that I never saw before. Even behaviors that I know I tested start breaking again, and this perpetual regression is really bothering me, even if in the last few years, my apps tend to be more robust and less filled with bugs.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#Diary on Hugoplate</title>
+    <link>//localhost:1313/tags/%23diary/</link>
+    <description>Recent content in #Diary on Hugoplate</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/%23diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>July 28th, 2025 - Starting My Journey into Functional Programming</title>
+      <link>//localhost:1313/july-28th-2025---starting-my-journey-into-functional-programming/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>//localhost:1313/july-28th-2025---starting-my-journey-into-functional-programming/</guid>
+      <description>&lt;h2 id=&#34;why-starting-learning-fp-&#34;&gt;Why starting learning FP ?&lt;/h2&gt;&#xA;&lt;p&gt;One of the main issues I encounter when building apps is the amount of small bugs that I create. No matter how much I try to test my apps, when I finally showcase my projects, I always face new bugs that I never saw before. Even behaviors that I know I tested start breaking again, and this perpetual regression is really bothering me, even if in the last few years, my apps tend to be more robust and less filled with bugs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

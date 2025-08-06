@@ -4,8 +4,8 @@ date: 2025-07-28
 draft: false
 tags:
   - programming
-  - "#diary"
   - journal
+  - diary
 ---
 
 ## Why starting learning FP ?
